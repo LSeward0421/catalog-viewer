@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Catalog data={data.products} />
+      <Catalog data={data} />
     </div>
   );
 }
