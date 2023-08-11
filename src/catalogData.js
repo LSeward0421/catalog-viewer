@@ -3288,3 +3288,5 @@ const data = {
   "auditAppUserId": "8503",
   "hasFlaggedTitle": false
 }
+
+export default data;

@@ -1,9 +1,13 @@
 import './App.css';
+import Header from './Components/Header/Header';
+import Catalog from './Components/Catalog/Catalog';
+import data from './catalogData';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1> Test </h1>
+      <Header />
+      <Catalog data={data.products} />
     </div>
   );
 }
